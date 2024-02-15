@@ -18,9 +18,11 @@ window.onload = function() {
     if (milliseconds <= 9) {
       appendMilliseconds.innerHTML = "0" + milliseconds;
     }
+
     if (milliseconds > 9) {
       appendMilliseconds.innerHTML = milliseconds;
     }
+
     if (milliseconds > 99) {
       seconds++;
       appendSeconds.innerHTML = "0" + seconds;
@@ -42,6 +44,7 @@ window.onload = function() {
     if (minutes > 9) {
       appendMinutes.innerHTML = minutes;
     }
+    
     if (minutes > 59) {
       hours++;
       appendHours.innerHTML = "0" + hours;
