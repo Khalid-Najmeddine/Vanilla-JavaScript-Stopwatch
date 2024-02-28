@@ -1,3 +1,5 @@
+//production build complete
+
 window.onload = function() {
   let hours = 00;
   let minutes = 00;
